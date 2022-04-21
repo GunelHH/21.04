@@ -1,0 +1,220 @@
+@import "../variables";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cus-container nav {
+  display: flex;
+  justify-content: space-around;
+  margin: 12px 0;
+  .logo img {
+    width: 100px;
+  }
+  .links ul {
+    display: flex;
+
+    li {
+      list-style: none;
+      margin-right: 30px;
+      a {
+        text-decoration: none;
+        font-size: 16px;
+        color: rgb(104, 100, 100);
+        transition: 0.5s all;
+      }
+      #icon {
+        color: rgb(54, 88, 189);
+        font-size: 20px;
+      }
+    }
+    li a:hover {
+      color: #2965ed;
+    }
+  }
+}
+.first-section {
+  .image {
+    width: 1440px;
+    img {
+      width: 100%;
+    }
+  }
+  .title {
+    position: relative;
+    bottom: 600px;
+    left: 300px;
+    width: 650px;
+    #h2 {
+      font-size: 60px;
+      color: white;
+      font-weight: bold;
+    }
+    > p {
+      color: white;
+      font-size: 20px;
+    }
+    > #a {
+      width: 160px;
+      height: 50px;
+      background-color: rgb(54, 88, 189);
+      border-radius: 5px;
+      text-align: center;
+      transition: 0.5s all;
+      margin-top: 20px;
+      a {
+        color: white;
+        text-decoration: none;
+      }
+    }
+    > #a:hover {
+      transform: scale(1.2);
+    }
+  }
+}
+.second-section {
+  .image {
+    text-align: center;
+    filter: brightness(70%);
+  }
+  .title {
+    color: white;
+    position: relative;
+    bottom: 350px;
+    left: 180px;
+
+    > h2 {
+      font-size: 50px;
+      color: white;
+      font-weight: bold;
+    }
+    > p {
+      color: white;
+      font-size: 20px;
+    }
+    #a {
+      width: 160px;
+      height: 50px;
+      background-color: rgb(54, 88, 189);
+      border-radius: 5px;
+      text-align: center;
+      transition: 0.5s all;
+      margin: 20px 0 0 12px;
+    }
+    a {
+      color: white;
+      text-decoration: none;
+    }
+
+    #a:hover {
+      transform: scale(1.2);
+    }
+  }
+}
+.third-section {
+  .title {
+    h3 {
+      font-weight: bold;
+      font-size: 25px;
+    }
+  }
+  .image {
+    width: 500px;
+    overflow: hidden;
+    margin: 30px 0;
+    img {
+      width: 100%;
+      transition: 0.3s all ease-in-out;
+    }
+  }
+  .desc {
+    font-size: 15px;
+  }
+  .cus-card:hover {
+    h3 {
+      text-decoration: underline;
+      color: rgb(54, 88, 189);
+    }
+    .image {
+      box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+      img {
+        transform: scale(1.2);
+      }
+    }
+  }
+}
+.fourth-section {
+  margin: 100px 0;
+  height: 820px;
+  background-image: url(https://d1p0gxnqcu0lvz.cloudfront.net/images/Banner_Moon_1920x500.6378ebc6.fill-480x270.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  //   filter: brightness(70%);
+  .card-network {
+    width: 700px;
+    height: 400px;
+    background-color: #2965ed;
+    position: relative;
+    top: 420px;
+    left: 200px;
+    padding: 35px;
+    h2 {
+      color: white;
+      font-size: 60px;
+    }
+    #a {
+      width: 160px;
+      height: 50px;
+      background-color: white;
+      border-radius: 5px;
+      text-align: center;
+      transition: 0.5s all;
+      margin: 20px 0 0 12px;
+    }
+    a {
+      color: #2965ed;
+      text-decoration: none;
+    }
+
+    #a:hover {
+      transform: scale(1.2);
+    }
+  }
+}
+.fifth-section {
+  margin-top: 40px;
+  .prod {
+    h4 {
+      font-weight: bold;
+      font-size: 25px;
+    }
+    .image {
+      width: 300px;
+      overflow: hidden;
+      margin: 30px 0;
+      img {
+        width: 100%;
+        transition: 0.3s all ease-in-out;
+      }
+    }
+    .desc {
+      font-size: 15px;
+    }
+  }
+  .prod:hover {
+    h4 {
+      text-decoration: underline;
+      color: rgb(54, 88, 189);
+    }
+    .image {
+      box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+      img {
+        transform: scale(1.2);
+      }
+    }
+  }
+}
+.end-page {
+  background-color: rgb(4, 4, 87);
+  height: 700px;
+}
